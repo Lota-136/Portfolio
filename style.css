@@ -8,7 +8,10 @@
     }
 
     #title {
-        font-size: 2em;
+        font-family: "Kosugi Maru", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
         margin: 2em 0 2em 0;
         text-align: center;
     }
@@ -21,14 +24,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin: 30px 0;
+        margin-bottom: 30px; 
         padding-top: 30px;
     }
 
     .cards-box {
         width: calc(100% / 3 - 30px);
-        height: 600px;
-        margin: 30px 15px 0 15px;
+        height: 500px;
+        margin: 0 15px 0 15px;
         background-color: #ddffee;
         box-shadow: 0px 0px 10px #00000055;
         
@@ -79,10 +82,10 @@
     }
 
     #main-visual {
-        width: 100%;
+        width: 100% - 5%;
         border: 1em solid #aaa;
-        border-radius: 1%;
-        margin: 0 auto;
+        border-radius: 1.5%;
+        margin: 0 5% 5% 5%;
         box-sizing: border-box;
     }
 
@@ -140,22 +143,17 @@
     .explain-image {
         width: 40%;
         height: auto;
-        border: 1em solid #777777;
+        box-shadow: 0 0 10px #00000055;
         user-select: none;
     }
 
     .acsess {
+        font-size: 1.6em;
         margin: 0 0 1em 0;
         padding: 1em 0;
         text-align: center;
         background-color: #ddffee;
-        border-left: 30px solid #aaccbb;
-        border-bottom: 15px solid #aaccbb;
         font-size: 1.4em;
-    }
-
-    .acsess::first-line {
-        font-size: 1.6em;
     }
 
     .back {

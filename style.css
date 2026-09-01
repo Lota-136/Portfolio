@@ -147,6 +147,19 @@
         user-select: none;
     }
 
+    .tools {
+        font-size: 1.6em;
+        margin: 0;
+        padding: 1em 0;
+        text-align: center;
+        background-color: #eeddff;
+        font-size: 1.4em;
+    }
+
+    .tools::first-line {
+        font-size: 1.3em;
+    }
+
     .acsess {
         font-size: 1.6em;
         margin: 0 0 1em 0;

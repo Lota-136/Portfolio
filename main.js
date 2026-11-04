@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (effectColor === 4) {
                 particle.style.backgroundColor = "#88ff88";
             } else if (effectColor === 5) {
-                particle.style.backgroundColor = "#88ffff";
+                particle.style.backgroundColor = "#8888ff";
             }
         }
 
